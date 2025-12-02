@@ -1,0 +1,44 @@
+/* --- Seção da Imagem (Esquerda) --- */
+.image-section {
+    /* flex: 1; */
+    background: url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663203737264/SPTGWnfHitMIrtTr.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}
+
+.image-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    /* border: 2px solid purple; */
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+    text-align: center;
+}
+
+.image-overlay h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.image-overlay p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.container-title-supere{
+    /* border: 2px solid blue; */
+    position: relative;
+    top: 45%;
+}
+
+/* --- Responsividade --- */
+@media (max-width: 768px) {
+    .image-section {
+        display: none;
+    }
+}
