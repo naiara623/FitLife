@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Login.css"
-import HeroSection from '../componentes/HeroSection';
+import HeroSection from '../components/HeroSection';
 
 function Login() {
 
@@ -10,7 +10,6 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Login com:', { email, password });
-    // Aqui você pode adicionar a lógica de autenticação
   };
 
   return (
