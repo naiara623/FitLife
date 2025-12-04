@@ -92,23 +92,25 @@
     display: inline-block;
 }
 
+/* CLASSE QUE GARANTE O PREENCHIMENTO E A BOLINHA INTERNA */
 .customRadioChecked {
-    composes: customRadio; 
-    background-color: var(--color-roxo);
+    composes: customRadio; /* Herda o estilo base */
+    background-color: var(--color-roxo); /* Fundo roxo */
+    border-color: var(--color-roxo); 
 }
 
+/* Bolinha interna branca que dá o efeito de preenchido */
 .customRadioChecked::after {
     content: '';
     width: 10px;
     height: 10px;
-    background: white;
+    background: white; /* Bolinha interna branca */
     border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 .customCheckbox {
     width: 20px;

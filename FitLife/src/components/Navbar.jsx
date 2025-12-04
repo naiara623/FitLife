@@ -10,7 +10,7 @@ export default function Navbar() {
             <li><Link to={'/'}>Home</Link></li>
             <li><Link to={'/perfil'}>Perfil</Link></li>
             <li><Link to={'/pilares'}>Pilares</Link></li>
-            <li><Link to={'/depoimentos'}>Depoimentos</Link></li>
+            <li><Link to={'/FormularioIdoso'}>Depoimentos</Link></li>
             <li><Link to={'/login'} className="btn-login-newsletter">Login</Link></li>
           </ul>
         </div>
