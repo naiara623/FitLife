@@ -4,7 +4,8 @@ import './Newsletter.css'
 export default function Newsletter() {
   return (
     <div className='container-newsletter'>
-      <div className='title-newsletter'>
+      <div className="fundo-puple">
+          <div className='title-newsletter'>
         <h1>Seu Treino, Seu</h1>
         <p><h1>Resultado.</h1></p>
       </div>
@@ -15,7 +16,7 @@ export default function Newsletter() {
         <input type="text" placeholder='Defina seu Objetivo'/>
         <button>Criar minha conta gratis</button>
       </form>
-
+      </div>
     </div>
   )
 }
