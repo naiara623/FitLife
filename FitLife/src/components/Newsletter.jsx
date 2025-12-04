@@ -6,7 +6,7 @@ export default function Newsletter() {
     <div className='container-newsletter'>
       <div className='title-newsletter'>
         <h1>Seu Treino, Seu</h1>
-        <p><h1>Resultado</h1></p>
+        <p><h1>Resultado.</h1></p>
       </div>
       <form action="" className='newsletter'>
         <h2>Começe Agora!</h2>

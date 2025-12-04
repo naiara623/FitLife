@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 300px;
+    gap: 400px;
     background-color: var(--cor-destaque);
     height: 10cm;
 }
@@ -36,6 +36,7 @@
 
 .newsletter input {
     border: 1px solid #827F7F;
+    width: 100%;
     padding: 5px;
     font-size: 15px;
     border-radius: 5px;
@@ -49,7 +50,11 @@
 }
 
 .newsletter button {
+    background-color: var(--cor-principal);
+    color: #fff;
+    border: 2px solid #72B847;
     padding: 10px;
+    font-size: 15px;
     border-radius: 10px;
     width: 100%;
 }
