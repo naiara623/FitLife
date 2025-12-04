@@ -1,0 +1,81 @@
+.container-newsletter {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    height: 10cm;
+    background-image: url('/src/img/idoso_yoga_2.png');
+    background-color: pink;
+     /* Propriedades do background */
+    background-size: cover;           /* Cobre toda a área */
+    background-position: 50% 90%;
+    background-repeat: no-repeat;     /* Não repete */
+    background-attachment: fixed;    /* Efeito parallax ao scroll */
+}
+
+.fundo-puple{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 100%;
+    background-color: #7c3c9070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35%;
+}
+
+
+.title-newsletter h1 {
+    color: #fff;
+    font-size: 45px;
+}
+
+.form-newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter {
+    display: flex;
+    /* padding: 30px; */
+    border-radius: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 25%;
+    height: 60%;
+}
+
+.container-newsletter h2 {
+    font-size: 28px;
+    color: var(--cor-destaque);
+}
+
+.newsletter input {
+    border: 1px solid #827F7F;
+    width: 90%;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+.newsletter input:focus {
+    outline: none;
+    border-color: var(--cor-destaque);
+    box-shadow: 0 0 0 3px #7c3c9033;
+}
+
+.newsletter button {
+    background-color: var(--cor-principal);
+    color: #fff;
+    border: 2px solid #72B847;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 90%;
+}

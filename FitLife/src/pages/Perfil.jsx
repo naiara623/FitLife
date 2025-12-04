@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Perfil.css';
+import Navbar from '../components/Navbar';
 
 function Perfil() {
       // Dados do usuário
@@ -40,14 +41,16 @@ function Perfil() {
   return (
     <div className='perfilUser'>
 
-        <div className="navbar">n</div>
+        <div className="Navbar">
+            <Navbar />
+        </div>
 
        <main className="main-content">
         <div className="perfil-wrapper">
           <aside className="profile-card">
 <div className="profile-header">
               <div className="profile-banner"></div>
-              <img src={userData.avatar} className="profile-avatar" />
+              <img className="profile-avatar"  src="userver.png" alt="Foto de perfil" />
             </div>
 
             <div className='form-infor'>
