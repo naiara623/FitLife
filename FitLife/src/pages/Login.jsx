@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./Login.css"
 import HeroSection from '../components/HeroSection';
+import { Link } from 'react-router-dom';
 
 function Login() {
 
@@ -67,7 +68,7 @@ function Login() {
                 </button>
 
                 <p className="signup-link">
-                Não tem uma conta? <a href="#">Cadastre-se agora</a>
+                Não tem uma conta? <Link to={'/cadastro'}>Cadastre-se agora</Link>
                 </p>
             </div>
         </div> 
